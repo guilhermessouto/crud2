@@ -28,7 +28,7 @@ const loginUser = () => {
 
     for(i = 0; i < readUser.length; i++){
         if(userName == readUser[i].name && userPassword == readUser[i].password){
-            location = `./user/index.html/`
+            location = `./user/user.html/`
         }
     }
 }
